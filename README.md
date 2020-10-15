@@ -3,7 +3,7 @@
 ## Usage
 This code has been used for the Verse2019 challenge as well as the paper [Coarse to Fine Vertebrae Localization and Segmentation with SpatialConfiguration-Net and U-Net](https://doi.org/10.5220/0008975201240133). The folder `training` contains the scripts used for training networks, the folder `inference` contains scripts used for inference only. The files for preparing the Docker image that was submitted to the Verse2019 challenge are in the folder `docker`. The folder `verse2019_dataset` contains the setup files, e.g., cross-validation setup and landmark files. The folder `other` contains the reorientation scripts.
 
-You need to have the [MedicalDataAugmentationTool](https://github.com/christianpayer/MedicalDataAugmentationTool) framework downloaded and in you PYTHONPATH for the scripts to work.
+You need to have the [MedicalDataAugmentationTool](https://github.com/christianpayer/MedicalDataAugmentationTool) framework downloaded in your PYTHONPATH for the scripts to work.
 If you have problems/questions/suggestions about the code, write me a [mail](mailto:christian.payer@gmx.net)!
 
 ### Dataset preprocessing
